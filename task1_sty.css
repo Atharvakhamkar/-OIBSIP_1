@@ -1,0 +1,249 @@
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navItem {
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.navItem a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.1s;
+}
+
+.navItem a:hover {
+    transform: scale(1.20);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    mix-blend-mode: multiply;
+}
+
+.logo span {
+
+    margin: 0px 15px;
+    font-size: 30px;
+}
+
+.bgImg {
+    background-image: url(./bg_glass1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    text-align: center;
+    font-family: 'bebas neue';
+    font-size: 35px;
+}
+
+.info1,
+.info2,
+.info3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desp {
+    width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.sign {
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+.img {
+    transition: transform 0.3s;
+}
+
+.img:hover {
+    transform: scale(1.10);
+}
+
+.info {
+    margin: 20px;
+}
+
+.intro {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    font-size: 50px;
+    font-family: 'bebas neue';
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border: solid whitesmoke 2px;
+    color: white;
+    background-color: #2b2b22;
+    transition: transform 0.3s;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.20);
+}
+
+.midIntro {
+
+    margin: 20px 0px;
+    padding: 0px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    right: 54px;
+    font-size: 25px;
+
+
+}
+
+.startIntro {
+    padding: 10px;
+    font-size: 50px;
+}
+
+main {
+    background-color: lightyellow;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
